@@ -15,7 +15,7 @@ def sqRoot(x: Double) : Double = {
   squareIter(x, 1.0)
 }
 
-//djfdsjkfdskjflkdfkddfklsdfkdl
+
 
 sqRoot(2)
 sqRoot(4)
