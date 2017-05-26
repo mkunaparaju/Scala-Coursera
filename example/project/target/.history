@@ -1,0 +1,5 @@
+console
+println("hello")
+println("Oh, hai!")
+console
+exit
