@@ -47,3 +47,40 @@ def tailRecurseFactorial(n: Int) : Int = {
 
 tailRecurseFactorial(5)
 
+
+def balance(chars : List[Char]) : Boolean = {
+  def balanceAux(chars : List[Char], netOpenParen : Int) : Boolean = {
+
+    if(chars.isEmpty) (netOpenParen == 0)
+    else
+    {
+      var aux = 0
+
+      if (chars.head == '(') aux = netOpenParen + 1
+      else if (chars.head == ')') aux = netOpenParen - 1
+      else aux = netOpenParen
+
+      if (aux >= 0) balanceAux(chars.tail, aux)
+      else false
+
+    }
+  }
+  balanceAux(chars, 0 )
+}
+
+balance("I told him (that it's not (yet) done).\n(But he wasn't listening)".toList)
+
+
+
+countChange(300,List(5,10,20,50,100))
+
+
+
+
+
+
+
+
+
+
+
