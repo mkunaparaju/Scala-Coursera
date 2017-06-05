@@ -91,3 +91,7 @@ def productMR(f : Int => Int) (a: Int, b: Int) : Int =
 
 productMR(x=> x*x) (1,3)
 
+type Set = Int => Boolean
+def Singelton(elem : Int) = (x:Int) => x == elem
+
+
