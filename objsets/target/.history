@@ -1,0 +1,6 @@
+;reload; */*:dumpStructureTo C:\Users\mkunaparaju\AppData\Local\Temp\sbt-structure.xml download resolveClassifiers resolveSbtClassifiers
+submit mkunaparaju@gmail.com 6VhN6BIDECFB5D42
+test
+submit mkunaparaju@gmail.com 6VhN6BIDECFB5D42
+kexit
+run
